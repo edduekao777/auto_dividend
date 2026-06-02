@@ -16,7 +16,7 @@ jobs:
       run: |
         curl -X POST https://develop1.serv00.net/dbService.php \
           -H "Content-Type: application/x-www-form-urlencoded" \
-           -b "app_userID=woandy1" \
+           -b "app_userID=woandy" \
           -d "action=setDividendPolicy" \
           --fail \
           --verbose
